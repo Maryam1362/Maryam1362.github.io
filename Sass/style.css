@@ -746,7 +746,8 @@ Media query
       line-height: 1.3; }
     #owl-demo .item button, #owl-demo2 .item button {
       padding: 10px;
-      width: 100%; }
+      width: 100%;
+      font-size: 13px; }
 
   .owl-theme .owl-controls .owl-buttons div {
     display: none; }
@@ -802,7 +803,7 @@ Media query
     #owl-demo .item button, #owl-demo2 .item button {
       padding: 10px;
       width: 100%;
-      font-size: 14px; }
+      font-size: 13px; }
 
   .owl-theme .owl-controls .owl-buttons div {
     display: none; }
