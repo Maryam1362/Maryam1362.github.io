@@ -787,21 +787,22 @@ Media query
     .mainHeader h1 {
       font-size: 20px; }
 
-  #owl-demo .item {
+  #owl-demo h2, #owl-demo p, #owl-demo2 h2, #owl-demo2 p {
+    font-size: 14px;
+    font-weight: none; }
+  #owl-demo .item, #owl-demo2 .item {
     background-size: cover;
     width: 100%;
     padding: 13rem 0;
     height: 550px; }
-    #owl-demo .item .info {
+    #owl-demo .item .info, #owl-demo2 .item .info {
       width: 100%;
       padding-left: 0;
       line-height: 1.3; }
-      #owl-demo .item .info h2, #owl-demo .item .info p {
-        font-size: 18px;
-        font-weight: none; }
-    #owl-demo .item button {
+    #owl-demo .item button, #owl-demo2 .item button {
       padding: 10px;
-      width: 40%; }
+      width: 50%;
+      font-size: 14px; }
 
   .owl-theme .owl-controls .owl-buttons div {
     display: none; }
