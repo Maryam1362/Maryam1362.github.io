@@ -720,7 +720,7 @@ Media query
 }*/
   .top {
     top: -373px; } }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   body, p, h2 {
     font-size: 14px; }
 
@@ -775,62 +775,66 @@ Media query
 
   .footerDownload {
     float: right; } }
-/*@media screen and (max-width:480px){
-    body, p, h2{
-        font-size:14px;
-    }
-    .Login{
-            display:none;
-        }
-    .mainHeader{
-         h1{cases 
-            font-size:25px;
-          }
-    }
-   
-    #owl-demo {
-        .item {
-            background-size: cover;
-            width: 100%;
-            padding: 13rem 0;
-            height:550px;
-        .info {
-            width:100%;
-            padding-left:0;
-            line-height: 1.3;
-            //text-align:center;
-             
-            h2,p{
-                font-size: 18px;
-                font-weight:none;
-                //text-align: center;
-             }
+@media only screen and (max-width: 320px) {
+  body, p, h2 {
+    font-size: 13px; }
 
-        }
-            button {
-               
-                padding:10px;
-                width:40%;
-                
-            }
-        }
-    }
+  .Login {
+    display: none; }
+
+  .mainHeader {
+    height: 50px; }
+    .mainHeader h1 {
+      font-size: 20px; }
+
+  #owl-demo .item {
+    background-size: cover;
+    width: 100%;
+    padding: 13rem 0;
+    height: 550px; }
+    #owl-demo .item .info {
+      width: 100%;
+      padding-left: 0;
+      line-height: 1.3; }
+      #owl-demo .item .info h2, #owl-demo .item .info p {
+        font-size: 18px;
+        font-weight: none; }
+    #owl-demo .item button {
+      padding: 10px;
+      width: 40%; }
+
+  .owl-theme .owl-controls .owl-buttons div {
+    display: none; }
+
+  .box {
+    width: 100px;
+    height: 230px; }
     .box img {
-    width: 40%;
-    height: 30%;
-}
-      
-    .owl-theme{
-        .owl-controls{
-            .owl-buttons{
-                div {
-                    display: none;
-                }
+      width: 150px;
+      height: 270px; }
 
-            }
-        }
-    }
-  
-}*/
+  .features {
+    height: 1000px; }
+    .features h1 {
+      font-size: 15px;
+      height: 80px; }
+
+  .floatLeft1, .floatLeft2, .floatRight1, .floatRight2 {
+    margin-left: 0; }
+
+  .useCase {
+    display: none; }
+
+  .top {
+    top: -223px; }
+
+  .footerNote {
+    display: none; }
+
+  .footerDownload {
+    float: right; }
+
+  .footerDownload, .footerNote, .logo {
+    width: 40%; } }
 
 /*# sourceMappingURL=style.css.map */

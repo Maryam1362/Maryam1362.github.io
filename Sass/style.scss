@@ -935,7 +935,7 @@ h1{
     top: -373px;
 }
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:320px) and (max-width:768px){
     body, p, h2{
         font-size:14px;
     }
@@ -1023,17 +1023,18 @@ h1{
 }
 }
 
-
-/*@media screen and (max-width:480px){
+@media only screen and (max-width:320px){
     body, p, h2{
-        font-size:14px;
+        font-size:13px;
     }
+    
     .Login{
             display:none;
         }
     .mainHeader{
-         h1{cases 
-            font-size:25px;
+        height: 50px;
+         h1{
+            font-size:20px;
           }
     }
    
@@ -1064,10 +1065,6 @@ h1{
             }
         }
     }
-    .box img {
-    width: 40%;
-    height: 30%;
-}
       
     .owl-theme{
         .owl-controls{
@@ -1079,5 +1076,44 @@ h1{
             }
         }
     }
-  
-}*/
+   //.floatLeft1,.floatLeft2,.floatRight1,.floatRight2{
+    //float:none;
+    //margin:0 auto;
+   //}
+   .box{
+    width: 100px;
+    height: 230px;
+    img {
+    width: 150px;
+    height: 270px;
+    }
+}
+
+.features{
+    height: 1000px;
+h1{
+    font-size: 15px;
+    height: 80px;
+}
+  }
+
+ .floatLeft1,.floatLeft2,.floatRight1,.floatRight2 {
+    
+    margin-left: 0;
+}
+.useCase{
+    display:none;
+}
+.top{
+    top:-223px;
+}
+.footerNote{
+    display:none;
+}
+.footerDownload{
+    float:right;
+}
+.footerDownload, .footerNote, .logo {
+    width: 40%;
+}
+}
