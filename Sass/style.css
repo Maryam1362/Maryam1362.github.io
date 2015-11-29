@@ -753,7 +753,7 @@ Media query
 
   .box {
     width: 35%;
-    height: 320px; }
+    height: 220px; }
     .box img {
       width: 250px;
       height: 320px; }
@@ -808,7 +808,7 @@ Media query
 
   .box {
     width: 27%;
-    height: 230px; }
+    height: 150px; }
     .box img {
       width: 150px;
       height: 270px; }
