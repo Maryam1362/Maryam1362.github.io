@@ -752,7 +752,7 @@ Media query
     display: none; }
 
   .box {
-    width: 200px;
+    width: 35%;
     height: 320px; }
     .box img {
       width: 250px;
@@ -807,7 +807,7 @@ Media query
     display: none; }
 
   .box {
-    width: 100px;
+    width: 27%;
     height: 230px; }
     .box img {
       width: 150px;
