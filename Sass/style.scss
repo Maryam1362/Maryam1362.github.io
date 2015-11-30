@@ -186,17 +186,31 @@ $WColor: white;
         color: white;
     }
 
-    .SignIn {
-        padding-left: 36%;
-        color: $BColor;
+    input[type="submit"]{
+        width:100%;
+        height: 40px;
+        background-color: $BColor;
+        color:$WColor;
+        margin:30px auto;
+        display:block;
     }
 
-    .forgetPass {
+    .SignIn {
         padding-bottom: 24px;
         border-bottom: 1px white solid;
+        display:block;
+        text-align:center;
     }
 }
-
+.checkBox{
+display: inline-block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
 #email,#passWord,#userName,#datepicker, #confirmPassWord {
     width: 100%;
     height: 40px;
@@ -206,15 +220,7 @@ $WColor: white;
 
 
 
-.checkBox {
-    label {
-        display: block;
-        width: 30%;
-        padding: 10px;
-        margin-top: -8%;
-        margin-left: 10%;
-    }
-}
+
 
 .newAccount {
     margin: 0 auto;
@@ -665,8 +671,8 @@ Legal Page
     a{
         text-decoration: none;
         color:black;
-        width:210px;
-        height: 50px;
+        width:30%;
+        height: 60px;
         margin:20px 2px;
         font-size:20px;
         background:gray;
@@ -734,7 +740,7 @@ Legal Page
 
 .legalButtons{
         margin:0 auto;
-        width:700px;
+        width:70%;
     }
 
   
@@ -934,7 +940,23 @@ h1{
 .top {
     top: -373px;
 }
+.newAccount {
+    p {
+    display:none;
+    }
+    a{
+        display:block;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+       float: none; 
+       margin-right: 0; 
+    }
 }
+
+
+}
+
 @media screen and (min-width:320px) and (max-width:768px){
     body, p, h2{
         font-size:14px;
@@ -1023,10 +1045,35 @@ h1{
 .footerDownload{
     float:right;
 }
+.newAccount {
+    p {
+    display:none;
+    }
+    a{
+        display:block;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+       float: none; 
+       margin-right: 0; 
+    }
+}
+
+    .legal {
+    a{
+        font-size:13px;
+        height: 60px;
+        padding-top:20px;
+    }
+    h2,h1{
+        font-size:25px;
+    }
+}
+
 }
 
 @media only screen and (max-width:320px){
-    body, p, h2{
+    body, p, h2, a{
         font-size:13px;
     }
     
@@ -1119,5 +1166,28 @@ h1{
 }
 .footerDownload, .footerNote, .logo {
     width: 40%;
+}
+.newAccount {
+    p {
+    display:none;
+    }
+    a{
+        display:block;
+        text-align: center;
+    width: 100%;
+        margin-top: 20px;
+       float: none; 
+       margin-right: 0; 
+    }
+}
+.legal{
+
+   a{
+        font-size:11px;
+        height: 60px;
+    }
+    h2,h1{
+        font-size:25px;
+    }
 }
 }

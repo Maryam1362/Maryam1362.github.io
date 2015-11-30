@@ -132,25 +132,33 @@ a {
   .LogInPage a {
     text-decoration: none;
     color: white; }
+  .LogInPage input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #3F739E;
+    color: white;
+    margin: 30px auto;
+    display: block; }
   .LogInPage .SignIn {
-    padding-left: 36%;
-    color: #3F739E; }
-  .LogInPage .forgetPass {
     padding-bottom: 24px;
-    border-bottom: 1px white solid; }
+    border-bottom: 1px white solid;
+    display: block;
+    text-align: center; }
+
+.checkBox {
+  display: inline-block;
+  position: relative;
+  padding-left: 36px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  vertical-align: middle;
+  cursor: pointer; }
 
 #email, #passWord, #userName, #datepicker, #confirmPassWord {
   width: 100%;
   height: 40px;
   margin: 10px auto 40px auto;
   border-radius: 6px; }
-
-.checkBox label {
-  display: block;
-  width: 30%;
-  padding: 10px;
-  margin-top: -8%;
-  margin-left: 10%; }
 
 .newAccount {
   margin: 0 auto; }
@@ -518,8 +526,8 @@ Legal Page
   .legal a {
     text-decoration: none;
     color: black;
-    width: 210px;
-    height: 50px;
+    width: 30%;
+    height: 60px;
     margin: 20px 2px;
     font-size: 20px;
     background: gray;
@@ -565,7 +573,7 @@ Legal Page
 
 .legalButtons {
   margin: 0 auto;
-  width: 700px; }
+  width: 70%; }
 
 .legal .selectedLink {
   background: black;
@@ -719,7 +727,17 @@ Media query
     margin-left: 13%;
 }*/
   .top {
-    top: -373px; } }
+    top: -373px; }
+
+  .newAccount p {
+    display: none; }
+  .newAccount a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+    margin-right: 0; } }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   body, p, h2 {
     font-size: 14px; }
@@ -775,9 +793,26 @@ Media query
     display: none; }
 
   .footerDownload {
-    float: right; } }
+    float: right; }
+
+  .newAccount p {
+    display: none; }
+  .newAccount a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+    margin-right: 0; }
+
+  .legal a {
+    font-size: 13px;
+    height: 60px;
+    padding-top: 20px; }
+  .legal h2, .legal h1 {
+    font-size: 25px; } }
 @media only screen and (max-width: 320px) {
-  body, p, h2 {
+  body, p, h2, a {
     font-size: 13px; }
 
   .Login {
@@ -837,6 +872,22 @@ Media query
     float: right; }
 
   .footerDownload, .footerNote, .logo {
-    width: 40%; } }
+    width: 40%; }
+
+  .newAccount p {
+    display: none; }
+  .newAccount a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+    margin-right: 0; }
+
+  .legal a {
+    font-size: 11px;
+    height: 60px; }
+  .legal h2, .legal h1 {
+    font-size: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
