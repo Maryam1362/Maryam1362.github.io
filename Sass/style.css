@@ -776,7 +776,7 @@ Media query
 
   .box {
     width: 35%;
-    height: 220px; }
+    height: 320px; }
     .box img {
       width: 250px;
       height: 320px; }
@@ -832,10 +832,46 @@ Media query
     padding-left: 15%; }
 
   .menu-text {
-    display: none; } }
+    display: none; }
+
+  #owl-demo button, #owl-demo2 button {
+    padding: 5px;
+    width: 40%;
+    margin: 10px auto;
+    font-size: 14px; }
+
+  .hiddenDiv {
+    width: 300px;
+    height: 400px; }
+    .hiddenDiv img {
+      width: 120px;
+      height: 300px;
+      margin-top: 10px;
+      margin-right: 20px; }
+    .hiddenDiv h1 {
+      font-size: 20px;
+      margin-bottom: 2px;
+      margin-top: -2px; }
+    .hiddenDiv .featureHiddenNote {
+      float: left;
+      width: 50%;
+      margin-top: 0px;
+      margin-left: 0px;
+      font-size: 14px;
+      text-align: left;
+      line-height: 1.3; } }
 @media only screen and (max-width: 320px) {
+  .menu-text {
+    display: none; }
+
   body, p, h2, a {
     font-size: 13px; }
+
+  #owl-demo button, #owl-demo2 button {
+    padding: 5px;
+    width: 40%;
+    margin: 10px auto;
+    font-size: 14px; }
 
   .Login {
     display: none; }
@@ -866,8 +902,8 @@ Media query
     display: none; }
 
   .box {
-    width: 27%;
-    height: 150px; }
+    width: 80%;
+    height: 250px; }
     .box img {
       width: 150px;
       height: 270px; }
@@ -879,7 +915,8 @@ Media query
       height: 80px; }
 
   .floatLeft1, .floatLeft2, .floatRight1, .floatRight2 {
-    margin-left: 0; }
+    margin-left: 0;
+    float: none; }
 
   .useCase {
     display: none; }
