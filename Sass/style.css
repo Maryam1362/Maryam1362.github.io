@@ -848,7 +848,8 @@ Media query
     background-size: cover;
     width: 100%;
     padding: 13rem 0;
-    height: 550px; }
+    height: 550px;
+    background-image: url(IMAGE/test2.jpg); }
     #owl-demo .item .info, #owl-demo2 .item .info {
       width: 100%;
       padding-left: 0;
