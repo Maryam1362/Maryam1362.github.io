@@ -828,13 +828,18 @@ Media query
     margin-right: 0; }
 
   .legal article {
-    font-size: 15px; }
+    font-size: 15px;
+    line-height: 1.2; }
   .legal a {
     font-size: 13px;
     height: 60px;
     padding-top: 13px; }
   .legal h2, .legal h1 {
-    font-size: 20px; }
+    font-size: 18px; }
+  .legal ul, .legal ol {
+    padding-left: 5px; }
+    .legal ul li, .legal ol li {
+      font-size: 15px; }
 
   .logo {
     float: none;

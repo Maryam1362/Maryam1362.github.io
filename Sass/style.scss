@@ -1086,6 +1086,7 @@ h1{
 .legal {
     article{
         font-size:15px;
+        line-height: 1.2;
     }
     a{
         font-size:13px;
@@ -1093,7 +1094,12 @@ h1{
         padding-top:13px;
     }
     h2,h1{
-        font-size:20px;
+        font-size:18px;
+    }
+    ul,ol{
+        li {font-size:15px;
+        }
+        padding-left:5px;
     }
 }
 
