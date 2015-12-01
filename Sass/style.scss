@@ -924,6 +924,7 @@ Media query
     }
 }
 
+
 .features{
     height: 1000px;
 h1{
@@ -957,9 +958,10 @@ h1{
 }
 
 @media screen and (min-width:320px) and (max-width:768px){
-    body, p, h2{
+    body, p, h2,.title{
         font-size:14px;
     }
+
     .hiddenDiv img {
     width: 200px;
     height: 300px;
