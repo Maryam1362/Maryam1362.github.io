@@ -741,6 +741,10 @@ Media query
   body, p, h2 {
     font-size: 14px; }
 
+  .hiddenDiv img {
+    width: 200px;
+    height: 300px; }
+
   .Login {
     display: none; }
 
@@ -781,7 +785,7 @@ Media query
     height: 1000px; }
     .features h1 {
       font-size: 15px;
-      height: 50px; }
+      height: 60px; }
 
   .useCase {
     display: none; }
