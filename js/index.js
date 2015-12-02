@@ -34,18 +34,18 @@ $(document).ready(function(){
         $('.menu-icon').animate({left: '250px'}, 250);
         $('body').attr("id",'test');
         $('.box').attr('id','featuresAfterExpandingMenu');
-        //$('.features').attr('id','featuresAfterexpand');
-        //$('.menu-text').animate({left: '250px'}, 250).empty();
-         $("body").css("overflow", "hidden");
+        $('.features').attr('id','featuresAfterexpand');
+        $('.menu-text').animate({left: '250px'}, 250).empty();
+         //$("body").css("overflow", "hidden");
     } 
     else  {
         $('#navigator').animate({left: '-250px'}, 250); 
         $(this).animate({left: '0px'}, 250);
         $('.menu-text').animate({left: '50px'}, 250).empty().text("Menu");
-        //$('body').attr("id",'test2');
-       // $('.box').removeAttr('id','featuresAfterExpandingMenu');
-        //$('.features').removeAttr('id','featuresAfterexpand');
-        $("body").css("overflow", "scroll");
+        $('body').attr("id",'test2');
+       $('.box').removeAttr('id','featuresAfterExpandingMenu');
+      $('.features').removeAttr('id','featuresAfterexpand');
+        //$("body").css("overflow", "scroll");
     } 
   });
   
