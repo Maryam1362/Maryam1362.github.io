@@ -4,6 +4,9 @@ Client: GPMEC
 Author: Maryam Sarabian
 */
 /******************************************
+Variables
+*******************************************/
+/******************************************
 /* SETUP
 /*******************************************/
 /* Box Model Hack */
@@ -43,6 +46,9 @@ Author: Maryam Sarabian
 a {
   text-decoration: none; }
 
+a:hover {
+  text-decoration: underline; }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -51,6 +57,9 @@ a {
   margin: 0 auto;
   width: 100%; }
 
+/****************************
+/*Header styles
+***************************/
 .mainHeader {
   background: #3F739E;
   padding: 0.8%;
@@ -94,277 +103,9 @@ a {
     background-color: black;
     border: solid 1px blue; }
 
-.LogInPage {
-  background: black;
-  color: white;
-  padding: 0.8%; }
-  .LogInPage h1 {
-    font-family: "Lobster", cursive;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 5%;
-    margin: 0 auto;
-    width: 33.3%;
-    border-bottom: 1px solid white; }
-  .LogInPage h2 {
-    width: 100%;
-    text-align: center;
-    line-height: 0.1em;
-    margin: 0 auto; }
-  .LogInPage h2 span {
-    padding: 0 10px;
-    background: black; }
-  .LogInPage .boxes {
-    margin: 40px auto 0 auto;
-    width: 33.3%; }
-  .LogInPage #checkbox-rememberme {
-    width: 22px;
-    height: 23px;
-    color: blue; }
-  .LogInPage button {
-    display: block;
-    width: 100%;
-    margin: 50px 0;
-    height: 40px;
-    border-radius: 6px;
-    background: #3F739E;
-    color: white; }
-  .LogInPage a {
-    text-decoration: none;
-    color: white; }
-  .LogInPage input[type="submit"] {
-    width: 100%;
-    height: 40px;
-    background-color: #3F739E;
-    color: white;
-    margin: 30px auto;
-    display: block; }
-  .LogInPage .SignIn {
-    padding-bottom: 24px;
-    border-bottom: 1px white solid;
-    display: block;
-    text-align: center; }
-
-.checkBox {
-  display: inline-block;
-  position: relative;
-  padding-left: 36px;
-  margin-bottom: 12px;
-  line-height: 24px;
-  vertical-align: middle;
-  cursor: pointer; }
-
-#email, #passWord, #userName, #datepicker, #confirmPassWord {
-  width: 100%;
-  height: 40px;
-  margin: 10px auto 40px auto;
-  border-radius: 6px; }
-
-.newAccount {
-  margin: 0 auto; }
-  .newAccount p {
-    margin-top: 30px;
-    margin-left: 50px; }
-  .newAccount a {
-    text-decoration: none;
-    display: block;
-    width: 150px;
-    margin-top: -15px;
-    float: right;
-    margin-right: -30px; }
-
-a:hover {
-  text-decoration: underline; }
-
-#owl-demo2 .owl-buttons {
-  display: none; }
-
-#owl-demo .item1, #owl-demo .item2, #owl-demo .item3, #owl-demo2 .item1, #owl-demo2 .item2, #owl-demo2 .item3 {
-  background-size: cover;
-  width: 100%;
-  height: 550px; }
-#owl-demo .wrapper, #owl-demo2 .wrapper {
-  padding: 13rem 0;
-  height: 550px;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5); }
-#owl-demo .info, #owl-demo2 .info {
-  float: right;
-  width: 50%;
-  font-family: sans-serif;
-  color: #f1f1f1;
-  line-height: 1.7;
-  font-weight: bold;
-  margin-right: 25%; }
-  #owl-demo .info a, #owl-demo2 .info a {
-    color: white; }
-#owl-demo h2, #owl-demo2 h2 {
-  font-size: 30px; }
-#owl-demo p, #owl-demo2 p {
-  font-size: 22px; }
-#owl-demo button, #owl-demo2 button {
-  background: #3F739E;
-  display: block;
-  padding: 12px;
-  width: 50%;
-  color: white;
-  margin: 20px auto;
-  font-size: 18px; }
-
-#test {
-  position: relative;
-  padding-left: 250px; }
-
-#test2 {
-  padding-left: -250px; }
-
-.owl-buttons {
-  margin-top: -330px;
-  display: block;
-  animation-name: arrow-fade-out;
-  cursor: pointer;
-  font-size: 20px;
-  clear: both; }
-  .owl-buttons .owl-prev {
-    float: left; }
-  .owl-buttons .owl-next {
-    float: right; }
-
-.owl-buttons div {
-  color: blue;
-  zoom: 6;
-  padding: 3px 10px;
-  font-size: 52px;
-  opacity: 0.5; }
-
-.owl-theme .owl-controls .owl-buttons div {
-  color: white;
-  zoom: 1;
-  padding: 13px;
-  font-size: 22px;
-  opacity: 0.5;
-  width: 40px;
-  height: 50px; }
-
- /*header.mainHeader:after {
-    content: "";
-    position: absolute;
-    z-index: 1000;
-    border-right: 100vw solid #3F739E;
- top: 70px;
- border-bottom: 40px solid transparent;
-  left: 0;
-}*/
-.features {
-  margin-top: 350px;
-  padding: 30px;
-  moz-margin-start: 300px;
-  webkit-margin-start: 300px;
-  margin-start: 300px;
-  clear: both;
-  width: 100%;
-  text-align: center;
-  background-size: cover;
-  padding-bottom: 100px;
-  height: 1200px;
-  /*p{
-  
-      font-size:23px;
-      font-family: sans-serif;
-      text-align:center;
-      margin-top:20px;
-  }*/ }
-  .features h1 {
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    font-family: sans-serif;
-    font-size: 20px;
-    height: 40px;
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center;
-    width: 50%;
-    margin-bottom: 10px;
-    margin-top: 20px; }
-
-.box {
-  height: 400px;
-  overflow: hidden;
-  border: 1px solid #000;
-  box-shadow: 0px 0px 15px 0px #666, 0px 5px 15px 0px #000; }
-  .box img {
-    width: 350px;
-    height: 450px; }
-
-.cover {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.45);
-  position: relative;
-  -webkit-transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
-  -moz-transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
-  transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
-  padding: 1em;
-  color: #fff;
-  overflow: hidden;
-  border-radius: 30px;
-  border: 2px solid pattern-grid-dark;
-  text-shadow: 1px 1px 0px #000; }
-
-.title {
-  font-size: 20px;
-  font-style: italic;
-  padding-top: 130px;
-  text-align: center;
-  font-family: sans-serif; }
-
-.box:hover .top {
-  -webkit-transition: all 0.7s cubic-bezier(0.99, 0.99, 0, 0.61);
-  top: 0px; }
-
-.top {
-  top: -453px; }
-
-.floatLeft1 {
-  float: left;
-  clear: both;
-  margin-left: 10%;
-  margin-top: 50px;
-  border-radius: 30px; }
-
-.floatLeft2 {
-  float: left;
-  clear: both;
-  margin-left: 10%;
-  margin-top: 50px;
-  border-radius: 30px; }
-
-.floatRight1 {
-  float: right;
-  margin-right: 10%;
-  margin-top: 50px;
-  border-radius: 30px;
-  width: 352px; }
-
-.floatRight2 {
-  float: right;
-  margin-right: 10%;
-  margin-top: 50px;
-  border-radius: 30px; }
-
-    /*.featureshidden1{
-        background-image:url("left.jpeg");
-        background-size:cover;
-        width:340px;
-        height: 340px;
-        border-radius:170px;
-        float:left; 
-        clear:both;
-        margin-top:20px; 
-        margin-left:200px;
-*/
-/*          navigator           */
+/**********************
+Hamberger menu styles
+*************************/
 #navigator {
   width: 250px;
   height: 100%;
@@ -446,14 +187,200 @@ a:hover {
 .on .line_three {
   transform: rotate(-45deg) translate(7px, -7px); }
 
-/*#featuresAfterExpandingMenu{
+/****************************
+owl carousel styles
+*****************************/
+#owl-demo2 .owl-buttons {
+  display: none; }
 
-    display:none;
+#owl-demo .item1, #owl-demo .item2, #owl-demo .item3, #owl-demo2 .item1, #owl-demo2 .item2, #owl-demo2 .item3 {
+  background-size: cover;
+  width: 100%;
+  height: 550px; }
+#owl-demo .wrapper, #owl-demo2 .wrapper {
+  padding: 13rem 0;
+  height: 550px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); }
+#owl-demo .info, #owl-demo2 .info {
+  float: right;
+  width: 50%;
+  font-family: sans-serif;
+  color: #f1f1f1;
+  line-height: 1.7;
+  font-weight: bold;
+  margin-right: 25%; }
+  #owl-demo .info a, #owl-demo2 .info a {
+    color: white; }
+#owl-demo h2, #owl-demo2 h2 {
+  font-size: 30px; }
+#owl-demo p, #owl-demo2 p {
+  font-size: 22px; }
+#owl-demo button, #owl-demo2 button {
+  background: #3F739E;
+  display: block;
+  padding: 12px;
+  width: 50%;
+  color: white;
+  margin: 20px auto;
+  font-size: 18px; }
 
-}
-#featuresAfterexpand{
-    height: 1920px;
-}*/
+.owl-buttons {
+  margin-top: -330px;
+  display: block;
+  animation-name: arrow-fade-out;
+  cursor: pointer;
+  font-size: 20px;
+  clear: both; }
+  .owl-buttons .owl-prev {
+    float: left; }
+  .owl-buttons .owl-next {
+    float: right; }
+
+.owl-buttons div {
+  color: blue;
+  zoom: 6;
+  padding: 3px 10px;
+  font-size: 52px;
+  opacity: 0.5; }
+
+.owl-theme .owl-controls .owl-buttons div {
+  color: white;
+  zoom: 1;
+  padding: 13px;
+  font-size: 22px;
+  opacity: 0.5;
+  width: 40px;
+  height: 50px; }
+
+/************************
+Feature section
+**************************/
+.features {
+  margin-top: 350px;
+  padding: 30px;
+  moz-margin-start: 300px;
+  webkit-margin-start: 300px;
+  margin-start: 300px;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  padding-bottom: 100px;
+  height: 1200px; }
+  .features h1 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 20px; }
+
+.box {
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 15px 0px #666, 0px 5px 15px 0px #000; }
+  .box img {
+    width: 350px;
+    height: 450px; }
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
+  -moz-transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
+  transition: all 0.4s cubic-bezier(0.99, 0.99, 0, 0.61);
+  padding: 1em;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 2px solid pattern-grid-dark;
+  text-shadow: 1px 1px 0px #000; }
+
+.title {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 130px;
+  text-align: center;
+  font-family: sans-serif; }
+
+.box:hover .top {
+  -webkit-transition: all 0.7s cubic-bezier(0.99, 0.99, 0, 0.61);
+  top: 0px; }
+
+.top {
+  top: -453px; }
+
+.floatLeft1 {
+  float: left;
+  clear: both;
+  margin-left: 10%;
+  margin-top: 50px;
+  border-radius: 30px; }
+
+.floatLeft2 {
+  float: left;
+  clear: both;
+  margin-left: 10%;
+  margin-top: 50px;
+  border-radius: 30px; }
+
+.floatRight1 {
+  float: right;
+  margin-right: 10%;
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 352px; }
+
+.floatRight2 {
+  float: right;
+  margin-right: 10%;
+  margin-top: 50px;
+  border-radius: 30px; }
+
+/****************************
+hidden div styles(fancy box styles)
+*********************************/
+.hiddenDiv {
+  display: none;
+  width: 1000px;
+  height: 820px;
+  background-image: url("../IMAGE/fancyBoxBackground.gif");
+  background-size: cover;
+  background-position: cover; }
+  .hiddenDiv img {
+    width: 360px;
+    height: 600px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px; }
+  .hiddenDiv h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: -100px; }
+  .hiddenDiv .featureHiddenNote {
+    float: left;
+    width: 605px;
+    margin-top: 300px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    line-height: 1.7; }
+
+/**********************************
+Mentioned in social media section
+**********************************/
 .options {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -464,15 +391,12 @@ a:hover {
     color: white;
     height: 60px;
     text-align: center;
-    padding-top: 2%;
+    padding-top: 1.5%;
     margin: 0 auto;
     font-family: sans-serif;
     font-size: 20px;
     border-radius: 10px; }
 
-/*********
-UseCase Section
-************/
 .useCase {
   height: 300px;
   padding: 2px;
@@ -503,10 +427,115 @@ UseCase Section
 #twitterClick img, #instagramClick img, #faceBookClick img {
   height: 120px;
   width: 120px;
-  margin-left: 33%; }
+  margin-left: 33%;
+  margin-top: -15px; }
 
-/*#useCaseAfterExpandingMenu{
-height: 400px;
+/*******************
+styles after opening the menu 
+*********************/
+#useCaseAfterExpandingMenu {
+  height: 400px; }
+
+#featuresAfterexpand {
+  height: 1100px; }
+
+#test {
+  position: relative;
+  padding-left: 250px; }
+
+#test2 {
+  padding-left: -250px; }
+
+/*****************************
+Log In page styles
+*******************************/
+.LogInPage {
+  background: black;
+  color: white;
+  padding: 0.8%; }
+  .LogInPage h1 {
+    font-family: "Lobster", cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    width: 33.3%;
+    border-bottom: 1px solid white; }
+  .LogInPage h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 0 auto; }
+  .LogInPage h2 span {
+    padding: 0 10px;
+    background: black; }
+  .LogInPage .boxes {
+    margin: 40px auto 0 auto;
+    width: 33.3%; }
+  .LogInPage #checkbox-rememberme {
+    width: 22px;
+    height: 23px;
+    color: blue; }
+  .LogInPage button {
+    display: block;
+    width: 100%;
+    margin: 50px 0;
+    height: 40px;
+    border-radius: 6px;
+    background: #3F739E;
+    color: white; }
+  .LogInPage a {
+    text-decoration: none;
+    color: white; }
+  .LogInPage input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #3F739E;
+    color: white;
+    margin: 30px auto;
+    display: block; }
+  .LogInPage .SignIn {
+    padding-bottom: 24px;
+    border-bottom: 1px white solid;
+    display: block;
+    text-align: center; }
+
+.checkBox {
+  display: inline-block;
+  position: relative;
+  padding-left: 8px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  vertical-align: middle;
+  cursor: pointer; }
+
+#email, #passWord, #userName, #datepicker, #confirmPassWord {
+  width: 100%;
+  height: 40px;
+  margin: 10px auto 40px auto;
+  border-radius: 6px; }
+
+.newAccount {
+  margin: 0 auto; }
+  .newAccount p {
+    margin-top: 30px;
+    margin-left: 50px; }
+  .newAccount a {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    margin-top: -15px;
+    float: right;
+    margin-right: -30px; }
+
+ /*header.mainHeader:after {
+    content: "";
+    position: absolute;
+    z-index: 1000;
+    border-right: 100vw solid #3F739E;
+ top: 70px;
+ border-bottom: 40px solid transparent;
+  left: 0;
 }*/
 /*******************
 Legal Page
@@ -516,13 +545,7 @@ Legal Page
   top: 100px;
   text-align: center;
   padding-left: 40px;
-  font-family: sans-serif;
-    /*a:active{
-
-     background-color: black;
-     color:white;
-     text-decoration: none;
-    }*/ }
+  font-family: sans-serif; }
   .legal a {
     text-decoration: none;
     color: black;
@@ -567,6 +590,9 @@ Legal Page
   .legal p {
     text-align: left;
     margin-left: 20px; }
+  .legal .selectedLink {
+    background: black;
+    color: white; }
 
 .color {
   background: #ccddff; }
@@ -575,37 +601,8 @@ Legal Page
   margin: 0 auto;
   width: 70%; }
 
-.legal .selectedLink {
-  background: black;
-  color: white; }
-
-.hiddenDiv {
-  display: none;
-  width: 1000px;
-  height: 820px;
-  background-image: url("https://d1a3f4spazzrp4.cloudfront.net/web-fresh/pattern-grid-dark@1x.gif");
-  background-size: cover;
-  background-position: cover; }
-  .hiddenDiv img {
-    width: 360px;
-    height: 600px;
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px; }
-  .hiddenDiv h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    margin-top: -100px; }
-  .hiddenDiv .featureHiddenNote {
-    float: left;
-    width: 605px;
-    margin-top: 300px;
-    margin-left: 15px;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: white;
-    text-align: left;
-    line-height: 1.7; }
+#legalPage {
+  margin-top: 200px; }
 
 /************************
 SignUp Page Styles
@@ -638,12 +635,12 @@ SignUp Page Styles
   color: red;
   margin-left: 104px; }
 
-/*************
+/******************************
 About Us Page
-*************/
+********************************/
 .aboutCompany {
   height: 700px;
-  background-image: url("http://media-cdn.tripadvisor.com/media/photo-s/01/ae/76/7a/city-view-at-night-from.jpg");
+  background-image: url("../IMAGE/aboutUsbackGround.jpg");
   background-size: cover; }
   .aboutCompany h1 {
     position: relative;
@@ -670,10 +667,9 @@ About Us Page
   margin-left: 15%;
   padding: 5%; }
 
-/************footer************/
-#legalPage {
-  margin-top: 200px; }
-
+/************************
+footer styles
+*************************/
 .footerDesign {
   background-color: #8c8c8c;
   height: 200px;
@@ -708,6 +704,13 @@ About Us Page
 Media query
 ************************/
 @media screen and (min-width: 769px) and (max-width: 1100px) {
+  .aboutCompany h1 {
+    position: relative;
+    top: 50%;
+    padding-left: 30%;
+    color: white;
+    font-size: 3em; }
+
   .box {
     width: 270px;
     height: 370px; }
@@ -773,7 +776,7 @@ Media query
       padding-top: 10px; }
 
   #owl-demo h2, #owl-demo p, #owl-demo2 h2, #owl-demo2 p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: none; }
   #owl-demo .item, #owl-demo2 .item {
     background-size: cover;
@@ -850,7 +853,7 @@ Media query
 
   .aboutCompany h1 {
     font-size: 2.5em;
-    padding-left: 15%; }
+    padding-left: 30%; }
 
   .menu-text {
     display: none; }
