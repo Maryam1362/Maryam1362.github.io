@@ -36,9 +36,10 @@ $(document).ready(function(){
         $('.box').attr('id','featuresAfterExpandingMenu');
         $('.features').attr('id','featuresAfterexpand');
         $('.menu-text').animate({left: '250px'}, 250).empty();
-         //$("body").css("overflow", "hidden");
+         $("body").css("overflow", "hidden");
     } 
     else  {
+      $("body").css("overflow", "scroll");
         $('#navigator').animate({left: '-250px'}, 250); 
         $(this).animate({left: '0px'}, 250);
         $('.menu-text').animate({left: '50px'}, 250).empty().text("Menu");
