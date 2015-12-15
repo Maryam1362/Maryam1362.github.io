@@ -990,15 +990,18 @@ Media query
     }
    
    .box{
-    width: 50%;
-    height: 320px;
+    width: 310px;
+    height: 560px;
         img {
-            height: 320px;
+            height: 560px;
+            width: 310px;
+    
         }
     }
 
+
     .features{
-        height: 1600px;
+        height: 3000px;
         h1{
             font-size: 15px;
             height: 65px;
@@ -1009,7 +1012,7 @@ Media query
     display:none;
 }
 .top{
-    top:-323px;
+    top:-563px;
 }
 .footerNote{
     display:none;
