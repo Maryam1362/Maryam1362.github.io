@@ -36,10 +36,13 @@ $(document).ready(function(){
         $('.box').attr('id','featuresAfterExpandingMenu');
         $('.features').attr('id','featuresAfterexpand');
         $('.menu-text').animate({left: '250px'}, 250).empty();
-         $("html").css("overflow", "hidden");
+         $("body").css("overflow", "hidden");
+         $("body").css("position", "fixed");
+
     } 
     else  {
       $("html").css("overflow", "scroll");
+      $("body").css("position", "static");
         $('#navigator').animate({left: '-250px'}, 250); 
         $(this).animate({left: '0px'}, 250);
         $('.menu-text').animate({left: '50px'}, 250).empty().text("Menu");
