@@ -38,11 +38,13 @@ $(document).ready(function(){
         $('.menu-text').animate({left: '250px'}, 250).empty();
          $("body").css("overflow", "hidden");
          $("body").css("position", "fixed");
+         $(".legalButtons").css("display","none");
 
     } 
     else  {
       $("html").css("overflow", "scroll");
       $("body").css("position", "static");
+      $(".legalButtons").css("display","block");
         $('#navigator').animate({left: '-250px'}, 250); 
         $(this).animate({left: '0px'}, 250);
         $('.menu-text').animate({left: '50px'}, 250).empty().text("Menu");
